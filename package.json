@@ -1,0 +1,16 @@
+{
+    "name": "cookiecutter-express-api",
+    "author": "Nathan",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mocha": "^5.2.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.2.0",
+        "superagent": "^4.0.0"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "test": "mocha ./test/ --exit"
+    }
+}
